@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.ontariotechu.sofe3980U.BinaryTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.ontariotechu.sofe3980U.BinaryTest
+or(com.ontariotechu.sofe3980U.BinaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[0]111> but was:<1[]111>
+	at com.ontariotechu.sofe3980U.BinaryTest.or(BinaryTest.java:21)
+
+and(com.ontariotechu.sofe3980U.BinaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<10[111]> but was:<10[00]>
+	at com.ontariotechu.sofe3980U.BinaryTest.and(BinaryTest.java:54)
+
+or2(com.ontariotechu.sofe3980U.BinaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<11[0]1> but was:<11[1]1>
+	at com.ontariotechu.sofe3980U.BinaryTest.or2(BinaryTest.java:32)
+
+or3(com.ontariotechu.sofe3980U.BinaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<11[0]1> but was:<11[1]1>
+	at com.ontariotechu.sofe3980U.BinaryTest.or3(BinaryTest.java:43)
+
+and2(com.ontariotechu.sofe3980U.BinaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[101]> but was:<1[0]>
+	at com.ontariotechu.sofe3980U.BinaryTest.and2(BinaryTest.java:65)
+
+and3(com.ontariotechu.sofe3980U.BinaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1[101]> but was:<1[0]>
+	at com.ontariotechu.sofe3980U.BinaryTest.and3(BinaryTest.java:76)
+
+multiply(com.ontariotechu.sofe3980U.BinaryTest)  Time elapsed: 0 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<1111000[]> but was:<1111000[0]>
+	at com.ontariotechu.sofe3980U.BinaryTest.multiply(BinaryTest.java:87)
+
