@@ -37,9 +37,5 @@ public class App
 		// Multiplication operation
 		Binary multiplyResult = Binary.multiply(binary1, binary2);
 		System.out.println("Multiplication result: " + multiplyResult.getValue());
-
-		// Add binary variables
-		Binary sum= Binary.add(binary1,binary2);
-		System.out.println( "Their summation is "+sum.getValue());
 	}
 }
