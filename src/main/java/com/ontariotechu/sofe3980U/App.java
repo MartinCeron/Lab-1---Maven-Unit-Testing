@@ -23,20 +23,22 @@ public class App
 		System.out.println( "First binary number is "+binary1.getValue());
 		Binary binary2=new Binary("111000");
 		System.out.println( "Second binary number is "+binary2.getValue());
+		Binary sum= Binary.add(binary1,binary2);
+		System.out.println( "Their summation is "+sum.getValue());
 
-		// Perform bitwise logical OR operation
+		// Bitwise logical OR operation
 		Binary orResult = Binary.or(binary1, binary2);
 		System.out.println("OR result: " + orResult.getValue());
 
-		// Perform bitwise logical AND operation
+		// Bitwise logical AND operation
 		Binary andResult = Binary.and(binary1, binary2);
 		System.out.println("AND result: " + andResult.getValue());
 
-		// Perform multiplication operation
+		// Multiplication operation
 		Binary multiplyResult = Binary.multiply(binary1, binary2);
 		System.out.println("Multiplication result: " + multiplyResult.getValue());
 
-		// Add the binary variables
+		// Add binary variables
 		Binary sum= Binary.add(binary1,binary2);
 		System.out.println( "Their summation is "+sum.getValue());
 	}
