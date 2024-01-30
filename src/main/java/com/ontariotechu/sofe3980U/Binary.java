@@ -79,7 +79,7 @@ public class Binary
 		return result;
 	}
 	/**
-	 * Performs a bitwise logical OR operation between two binary variables.
+	 * Bitwise logical OR operation between two binary variables.
 	 *
 	 * @param num1 The first binary variable
 	 * @param num2 The second binary variable
@@ -109,7 +109,7 @@ public class Binary
 		return result;
 	}
 	/**
-	 * Performs a bitwise logical AND operation between two binary variables.
+	 * Bitwise logical AND operation between two binary variables.
 	 *
 	 * @param num1 The first binary variable
 	 * @param num2 The second binary variable
@@ -144,7 +144,7 @@ public class Binary
 	 *
 	 * @param num1 The first multiplicand binary variable
 	 * @param num2 The second multiplicand binary variable
-	 * @return A binary variable with a value of <i>num1 multiplied by num2</i>.
+	 * @return A binary variable with a value of <i>num1 * num2</i>.
 	 */
 	public static Binary multiply(Binary num1, Binary num2) {
 		Binary zero = new Binary("0");
